@@ -188,10 +188,6 @@ SELECT
     'Cleaning: logical nulling & deduplication. Invalid numeric/date -> NULL; duplicates deduped by last_review & number_of_reviews.'
 ;
 
-COMMIT;
 
--- 7) Quick validation queries (optional)
--- COUNT NULLs after cleaning (example)
--- SELECT COUNT(*) FILTER (WHERE price IS NULL) AS price_nulls FROM staging.airbnb_cleaned;
--- SELECT COUNT(*) FILTER (WHERE id IS NULL) AS id_nulls FROM staging.airbnb_cleaned;
+COMMIT;
 
