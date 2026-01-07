@@ -17,5 +17,5 @@ The pipeline covers the complete lifecycle of Big Data processing, including dat
 - Fadhil Ahmad Izzati (1103223198)
 
 ## How to run
-This project is organized into separate pipeline folders, where each folder contains detailed instructions and notebooks/scripts for a specific processing stage.
+This project is organized into separate pipeline folders, where each folder contains detailed instructions and notebooks/scripts for a specific processing stage. <br/>
 Please refer to each folder’s documentation to run the pipeline correctly.
